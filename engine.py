@@ -18,7 +18,7 @@ def main():
     pygame.display.set_caption("roguelike")
     font = pygame.font.Font(".\data\misaki_gothic.ttf", GRID_SIZE)
 
-    player = font.render("＠", True, white)
+    player = font.render("あ", True, white)
     # mainLoop
     while(True):
         pygame.display.update()
